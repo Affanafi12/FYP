@@ -19,12 +19,12 @@ const NgoCard = ({ info }) => {
             <p className="font-serif">
               {info?.detail}
             </p>
-            <Link to={info?.url}>
+            <Link to={info?.id}>
               <button type="button" className="btn btn-outline-dark mt-3">
                 Read More
               </button>
               </Link>
-            <p className="mt-5 text-red-600">
+            <p className="mt-5 text-red-600 underline">
               Rating: {info?.rateInStar} ❤
             </p>
           </div>

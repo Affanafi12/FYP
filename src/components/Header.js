@@ -19,7 +19,7 @@ const Header = () => {
               <Link to={d.path}><li className="mx-3 p-2 cursor-pointer hover:bg-green-900 text-xl font-semibold">{d.name}</li></Link>
             ))}
 
-            <button className="top-rated-button border-2 border-white px-3 py-2 rounded-full font-semibold mx-4">Top Rated NGOS</button>
+            <button className="top-rated-button border-2 border-white px-3 py-2 rounded-full font-semibold mx-4">LogOut</button>
           </ul>
         </div>
       </div>

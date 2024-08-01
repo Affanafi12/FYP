@@ -4,7 +4,7 @@ import NgoCard from "./NgoCard";
 const NgoList = ({ ngoData }) => {
   return (
     <>
-      <div className="my-4">
+      <div className="py-4 bg-gray-100">
         <h1 className="text-center text-3xl font-bold">
           NGO List you should <span className="text-green-400">Donate.</span>
         </h1>
