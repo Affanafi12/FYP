@@ -38,18 +38,21 @@ const Contact = () => {
           </div>
 
           <div className="mx-40 my-20">
+            <form action="https://api.web3forms.com/submit" method="POST">
               <div className="row flex justify-between">
                 <div className="col-md-6">
-                  <input type="text" placeholder="First Name" className="w-full py-3 px-2 border border-black rounded-lg" />
+                <input type="hidden" name="access_key" value="386469a1-32c6-46e1-8a38-7df42d97e904" />
+                  <input type="text" placeholder="First Name" name="first-name" className="w-full py-3 px-2 border border-black rounded-lg" />
                 </div>
                 <div className="col-md-6">
-                <input type="text" placeholder="Last Name" className="w-full py-3 px-2 border border-black rounded-lg" />
+                <input type="text" placeholder="Last Name" name="last-name" className="w-full py-3 px-2 border border-black rounded-lg" />
                 </div>
               </div>
 
-              <input type="text" placeholder="Email Address" className="w-full my-2 py-3 px-2 border border-black rounded-lg" />
-              <textarea placeholder="Input Message Here." className="w-full px-2 border border-black rounded-lg"/>
-              <button className="w-full bg-green-900 text-white py-3 rounded-full text-xl">Submit</button>
+              <input type="text" placeholder="Email Address" name="email" className="w-full my-2 py-3 px-2 border border-black rounded-lg" />
+              <textarea placeholder="Input Message Here." name="detail" className="w-full px-2 border border-black rounded-lg"/>
+              <button type="submit" className="w-full bg-green-900 text-white py-3 rounded-full text-xl">Submit</button>
+              </form>
           </div>
         </div>
       </div>

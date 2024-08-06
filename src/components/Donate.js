@@ -1,13 +1,11 @@
-import React from 'react';
-
+import React from 'react'
 
 const Donate = () => {
-  
   return (
-    <>
-    <p>donate</p>
-    </>
+    <div>
+      ckiu
+    </div>
   )
 }
 
-export default Donate;
+export default Donate

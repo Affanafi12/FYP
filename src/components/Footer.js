@@ -28,8 +28,7 @@ const Footer = () => {
             <div className="col-md-4 text-center text-white">
               <h1 className="text-xl font-bold">VOLUNTEER</h1>
               <p className="py-2">
-                Ut elit tellus, luctus nec ullamcorper <br /> mattis, pulvinar dapibus
-                leo.
+                We have the beat volunteer. <br /> with the extraordinary experiences.
               </p>
               <a href="#"><p>👉 Open Volunteer</p></a>
               <h1 className="text-xl font-bold py-2">DONATION</h1>
@@ -38,7 +37,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="bg-green-600 text-center">
-          <p className="text-white font-bold py-4 font-serif">Copyright © 2024 Rometheme. All Rights Reserved</p>
+          <p className="text-white font-bold py-4 font-serif">Copyright © 2024 Charity Brigde. All Rights Reserved</p>
         </div>
       </div>
     </>

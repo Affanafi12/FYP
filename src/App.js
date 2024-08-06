@@ -8,6 +8,8 @@ import Footer from './components/Footer';
 import Contact from './components/Contact';
 import Blog from './components/Blog';
 import Donate from './components/Donate';
+import Ngo2 from './components/Ngo2';
+import Ngo3 from './components/Ngo3';
 
 
   function App() {
@@ -18,6 +20,14 @@ import Donate from './components/Donate';
           {
             path: "/",
             element: <><Header /><Main /><Footer/></>,
+          },
+          {
+            path: "/page2",
+            element: <><Header /><Ngo2 /><Footer/></>,
+          },
+          {
+            path: "/page3",
+            element: <><Header /><Ngo3 /><Footer/></>,
           },
           {
             path: "/about",
